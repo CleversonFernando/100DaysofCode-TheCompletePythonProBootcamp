@@ -9,7 +9,6 @@ moneyMachine = MoneyMachine()
 run_machine = True
 
 while run_machine:
-
     choice = input(f"What would you like? {newMenu.get_items()}").lower()
     if choice == 'report':
         coffeeMachine.report()
