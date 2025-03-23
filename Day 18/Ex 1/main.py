@@ -21,7 +21,7 @@ angules = 3
 circule = 360
 list_of_colors = ["red", "blue", "Black", "purple", "pink", "orange", "yellow", "gray"]
 
-for _ in range(8):
+for _ in range(len(list_of_colors)):
     angle_degree = int(circule / angules)
     for _ in range(angules):
         tim.forward(100)
