@@ -55,7 +55,7 @@ def play_game():
         print(
             f"Against B: {second_choose['name']}, a {second_choose['description']}, from {second_choose['country']}, {second_choose['follower_count']}")
         choice = input("Type 'A' or 'B':").capitalize()
-        right_answer = check(first_choose, second_choose, choice, count)
+        right_answer = mark(first_choose, second_choose, choice, count)
         first_choose = update_choice(first_choose, second_choose)
         if right_answer:
             count += 1
